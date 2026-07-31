@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1785500788861" clover="3.2.0">
+  <project timestamp="1785500788862" name="All files">
+    <metrics statements="6" coveredstatements="6" conditionals="9" coveredconditionals="9" methods="1" coveredmethods="1" elements="16" coveredelements="16" complexity="0" loc="6" ncloc="6" packages="1" files="1" classes="1"/>
+    <file name="pode-votar.js" path="C:\repositorio\aula-teste-de-unidade\src\pode-votar.js">
+      <metrics statements="6" coveredstatements="6" conditionals="9" coveredconditionals="9" methods="1" coveredmethods="1"/>
+      <line num="11" count="7" type="cond" truecount="5" falsecount="0"/>
+      <line num="12" count="4" type="stmt"/>
+      <line num="22" count="3" type="cond" truecount="4" falsecount="0"/>
+      <line num="23" count="1" type="stmt"/>
+      <line num="32" count="2" type="stmt"/>
+      <line num="36" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
