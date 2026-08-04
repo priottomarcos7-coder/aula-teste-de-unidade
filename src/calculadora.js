@@ -1,15 +1,26 @@
-// Função de soma
-function somar(a, b) {
-    return a + b;
-}
-console.log('Soma: ' + somar(10, 5))
+class Calculadora {
 
-// Função de divisão
-function dividir(a, b) {
-    if (b === 0) {
-        return 'Divisão por zero não é permitida.';
+    somar(a, b) {
+        return a + b;
     }
-    return a / b;
+
+    dividir(a, b) {
+        if (b === 0) {
+            return 'Divisão por zero não é permitida.';
+        }
+        return a / b;
+
+    }
+
+    subtrair(a, b) {
+        return a - b;
+    }
+
+    multiplicar(a, b) {
+        return a * b;
+    }
+
 }
 
-module.exports = {somar, dividir }
+
+module.exports = new Calculadora();

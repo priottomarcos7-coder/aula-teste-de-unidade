@@ -6,7 +6,7 @@ describe('Testes de cobertura de instruções', () => {
         expect(verificarIdade(18)).toBe('Maior de idade')
     });
     //Teste pulado pois a técnica não é a de instrução e sim a de decisão
-    test.skip('Deve validar se da erro quando idade for menor que 18 anos', () => {
+    test('Deve validar se da erro quando idade for menor que 18 anos', () => {
         expect(verificarIdade(17)).not.toBe('Maior de idade')
     });
 });
